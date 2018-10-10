@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{B69100F1-275D-C42E-8F56-55DDF9BFDCC9}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BuildingGenerator.cs">
+    <Files>
+      <File FileName="Assets/BuildingBehaviourScript.cs" Line="25" Column="17" />
+      <File FileName="Assets/GameDirector.cs" Line="33" Column="3" />
+      <File FileName="Assets/SaidBehaviorScript.cs" Line="15" Column="3" />
+      <File FileName="Assets/Transport.cs" Line="67" Column="1" />
+      <File FileName="Assets/BuildingGenerator.cs" Line="25" Column="101" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

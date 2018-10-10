@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{7FD6F6DD-ED6B-116F-91A5-710D6D4384BA}</ProjectGuid>
+    <ProjectGuid>{B69100F1-275D-C42E-8F56-55DDF9BFDCC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,21 +61,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Building1Generator.cs" />
     <Compile Include="Assets\BuildingBehaviourScript.cs" />
+    <Compile Include="Assets\BuildingGenerator.cs" />
     <Compile Include="Assets\GameDirector.cs" />
     <Compile Include="Assets\SaidBehaviorScript.cs" />
+    <Compile Include="Assets\Transport.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/hanhyeonmin/Desktop/tour/tourProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/hanhyeonmin/Desktop/tour/tour_unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/hanhyeonmin/Desktop/tour/tourProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/hanhyeonmin/Desktop/tour/tour_unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/hanhyeonmin/Desktop/tour/tourProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/hanhyeonmin/Desktop/tour/tour_unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/hanhyeonmin/Desktop/tour/tourProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/hanhyeonmin/Desktop/tour/tour_unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
