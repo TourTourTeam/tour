@@ -2,11 +2,19 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BuildingGenerator.cs">
     <Files>
-      <File FileName="Assets/BuildingBehaviourScript.cs" Line="25" Column="17" />
-      <File FileName="Assets/GameDirector.cs" Line="33" Column="3" />
-      <File FileName="Assets/SaidBehaviorScript.cs" Line="15" Column="3" />
-      <File FileName="Assets/Transport.cs" Line="67" Column="1" />
-      <File FileName="Assets/BuildingGenerator.cs" Line="25" Column="101" />
+      <File FileName="Assets/BuildingBehaviourScript.cs" Line="21" Column="1" />
+      <File FileName="Assets/GameDirector.cs" Line="54" Column="1" />
+      <File FileName="Assets/SaidBehaviorScript.cs" Line="21" Column="18" />
+      <File FileName="Assets/Transport.cs" Line="28" Column="1" />
+      <File FileName="Assets/BuildingGenerator.cs" Line="38" Column="12" />
+      <File FileName="Assets/LoginDirector.cs" Line="59" Column="39" />
+      <File FileName="Assets/UserJson.cs" Line="11" Column="1" />
+      <File FileName="Assets/ResultJson.cs" Line="12" Column="1" />
+      <File FileName="Assets/loginWindowBehavior.cs" Line="8" Column="36" />
+      <File FileName="Assets/StaticDataManager.cs" Line="21" Column="9" />
+      <File FileName="Assets/BuildingListJson.cs" Line="20" Column="2" />
+      <File FileName="Assets/MapListJson.cs" Line="19" Column="2" />
+      <File FileName="Assets/MapSaidScript.cs" Line="20" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

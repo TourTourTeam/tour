@@ -63,9 +63,17 @@
   <ItemGroup>
     <Compile Include="Assets\BuildingBehaviourScript.cs" />
     <Compile Include="Assets\BuildingGenerator.cs" />
+    <Compile Include="Assets\BuildingListJson.cs" />
     <Compile Include="Assets\GameDirector.cs" />
+    <Compile Include="Assets\LoginDirector.cs" />
+    <Compile Include="Assets\loginWindowBehavior.cs" />
+    <Compile Include="Assets\MapListJson.cs" />
+    <Compile Include="Assets\MapSaidScript.cs" />
+    <Compile Include="Assets\ResultJson.cs" />
     <Compile Include="Assets\SaidBehaviorScript.cs" />
+    <Compile Include="Assets\StaticDataManager.cs" />
     <Compile Include="Assets\Transport.cs" />
+    <Compile Include="Assets\UserJson.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/hanhyeonmin/Desktop/tour/tour_unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

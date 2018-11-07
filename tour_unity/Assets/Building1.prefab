@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 114289393010608014}
   - component: {fileID: 114465066433533316}
   - component: {fileID: 114857178569956992}
-  m_Layer: 5
-  m_Name: Building1 1
+  m_Layer: 0
+  m_Name: Building1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 224200251914038068}
   - component: {fileID: 222040566407039302}
   - component: {fileID: 114299651275257008}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
