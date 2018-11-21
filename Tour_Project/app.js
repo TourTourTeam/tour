@@ -38,10 +38,6 @@ var config = require('./config/config');
 // 모듈로 분리한 데이터베이스 파일 불러오기
 var database = require('./database/database');
 
-// 모듈로 분리한 라우팅 파일 불러오기
-var route_loader = require('./routes/route_loader');
-
-
 
 //===== 서버 변수 설정 및 static으로 public 폴더 설정  =====//
 console.log('config.server_port : %d', config.server_port);
@@ -90,7 +86,7 @@ var router = express.Router();
 // 패스포트 라우팅 설정
 var userPassport = require('./routes/user_passport');
 userPassport(router, passport, app);
-app.use('/user', router);
+app.use('/', router);
 //app.use('/user', userPassport());
 
 
