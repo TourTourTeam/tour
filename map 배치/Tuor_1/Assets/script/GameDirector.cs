@@ -78,8 +78,8 @@ public class GameDirector : MonoBehaviour {
     public void activateMapSaid(){
         deactiveAllBox();
 
-        this.mapSaid.transform.localPosition = new Vector3(0, -166, -50);
-        this.mapSaid.transform.localScale = new Vector3(56, 50, 1);
+        this.mapSaid.transform.localPosition = new Vector3(-1, -30, -50);
+        this.mapSaid.transform.localScale = new Vector3(40, 40, 1);
         this.mapSaid.SetActive(true);
     }
 
