@@ -64,6 +64,7 @@
     <Compile Include="Assets\script\BuildingBehaviourScript.cs" />
     <Compile Include="Assets\script\BuildingGenerator.cs" />
     <Compile Include="Assets\script\BuildingListJson.cs" />
+    <Compile Include="Assets\script\BuildingOwnerScript.cs" />
     <Compile Include="Assets\script\BuildingSaidScript.cs" />
     <Compile Include="Assets\script\GameDirector.cs" />
     <Compile Include="Assets\script\LoginDirector.cs" />

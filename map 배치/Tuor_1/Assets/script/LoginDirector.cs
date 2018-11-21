@@ -5,12 +5,24 @@ using UnityEngine.SceneManagement;
 
 /*  Login Scene을 관리하는 디렉터   */
 public class LoginDirector : MonoBehaviour {
+    GameObject camera;
+    GameObject canvas;
     GameObject loginWindow;
     GameObject transportManager;
     GameObject dataManager;
 
 	// Use this for initialization
 	void Start () {
+        camera = GameObject.Find("Main Camera");
+        camera.transform.position = new Vector3(960, 540, -100);
+        camera.transform.localScale = new Vector3(91.062f, 24.3752f, 1.10118f);
+
+        canvas = GameObject.Find("Canvas");
+        canvas.GetComponent<RectTransform>().sizeDelta = new Vector2(1920, 1080);
+        canvas.GetComponent<RectTransform>().position = new Vector3(960, 540, 0);
+
+        canvas = GameObject.Find("Canvas");
+
         loginWindow = GameObject.Find("loginWindow");
         transportManager = GameObject.Find("TransportManager");
         dataManager = GameObject.Find("DataManager");

@@ -2,31 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566580de-4ed5-4dc8-8c76-c790eb3d7f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/Tour_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Tour_Project/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/api/parttime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/api/parttime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/config/passport/local_signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/config/passport/local_signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/database/user_schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/database/user_schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tour_Project/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tour_Project/api/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/UserPrefs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/BusanScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/BusanScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/DaeguScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/DaeguScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/LoginScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/SeoulScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/SeoulScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/resources/prefab/building2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/resources/prefab/building2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingBehaviourScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingListJson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingListJson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingSaidScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/BuildingSaidScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/GameDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/GameDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/EditorInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/74/74486e49e97d641b6b7b79ca027e2005" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/74/74486e49e97d641b6b7b79ca027e2005" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/74/74486e49e97d641b6b7b79ca027e2005.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/74/74486e49e97d641b6b7b79ca027e2005.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/3c/3c9f0d6827d59420fb458e6afe675119" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/3c/3c9f0d6827d59420fb458e6afe675119" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0cb795f7117143ba9e473fe9f5bce3e" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0cb795f7117143ba9e473fe9f5bce3e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/cf/cf181bd3419db4d4c87ac17578eda0ec" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/cf/cf181bd3419db4d4c87ac17578eda0ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/ef/efaedbba575314327a1efcb1666061a2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/ef/efaedbba575314327a1efcb1666061a2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-1a59aaf7d8f8f4b77a1440f5ac26a749" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-227d4d86bf0904eef8b281ce713fcea7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-6300232fbfc3e410eb4d402675ce0c08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-79a6570604a064dafbdaeeba271898f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-dfe087b98d470413c954b08ee87bc5e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-e9c9e221bfb3249d282639448ee9ff94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Temp/__Backupscenes/0.backup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/buildings.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/buildings.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,30 +82,31 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="173" />
+          <entry key="js" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="173" />
+          <entry key="JavaScript" value="227" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -127,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/buildings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="116">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -187,7 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +215,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,17 +256,17 @@
       <workItem from="1542717737087" duration="7563000" />
       <workItem from="1542797273664" duration="4863000" />
       <workItem from="1542805982399" duration="21000" />
+      <workItem from="1542812451346" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16107000" />
+    <option name="totallyTimeSpent" value="17057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="961" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28070176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28696743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -264,13 +275,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,6 +300,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/maps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -303,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/buildings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -317,10 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/buildings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="116">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

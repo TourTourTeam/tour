@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BuildingSaidScript : MonoBehaviour {
-    public Text moneyText;
+    public Text buyText;
+    public Text parttimeText;
 
     /*  말풍선의 정보를 세팅 */
     public void setInfo(BuildingJson info){
-        moneyText.text = info.money;
+        buyText.text = info.money;
+        parttimeText.text = info.money;
     }
 
 

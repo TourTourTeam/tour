@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameDirector: {fileID: 0}
+  dataManager: {fileID: 0}
 --- !u!114 &114635514220998518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -170,7 +171,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &222396859983375576
 CanvasRenderer:
   m_ObjectHideFlags: 1

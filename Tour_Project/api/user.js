@@ -1,8 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var database = app.get('database');
-var User = new database.UserModel;
+var User = require('../database/user_schema');
 
 router.get('/',function(req,res,next){
     User.find({})
