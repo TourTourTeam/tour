@@ -15,12 +15,17 @@ var expressErrorHandler = require('express-error-handler');
 
 // Session 미들웨어 불러오기
 var expressSession = require('express-session');
+
+// 익스프레스 객체 생성
+var app = express();
   
 //api 설정
 app.use('/api/user', require('./api/user'));
 app.use('/api/map',require('./api/map'));
 app.use('/api/building',require('./api/building'));
 app.use('/api/parttime',require('./api/parttime'));
+
+
 
 //===== Passport 사용 =====//
 var passport = require('passport');
@@ -36,17 +41,6 @@ var database = require('./database/database');
 // 모듈로 분리한 라우팅 파일 불러오기
 var route_loader = require('./routes/route_loader');
 
- 
-
-
-// 익스프레스 객체 생성
-var app = express();
-
-
-//===== 뷰 엔진 설정 =====//
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
-console.log('뷰 엔진이 ejs로 설정되었습니다.');
 
 
 //===== 서버 변수 설정 및 static으로 public 폴더 설정  =====//
@@ -77,6 +71,7 @@ app.use(expressSession({
 
 //===== Passport 사용 설정 =====//
 // Passport의 세션을 사용할 때는 그 전에 Express의 세션을 사용하는 코드가 있어야 함
+require('./config/passport')(app, passport);
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
@@ -89,13 +84,14 @@ var router = express.Router();
 
 
 // 패스포트 설정
-var configPassport = require('./config/passport');
-configPassport(app, passport);
+//var configPassport = require('./config/passport');
+//configPassport(app, passport);
 
 // 패스포트 라우팅 설정
 var userPassport = require('./routes/user_passport');
-userPassport(router, passport,app);
-
+userPassport(router, passport, app);
+app.use('/user', router);
+//app.use('/user', userPassport());
 
 
 //===== 404 에러 페이지 처리 =====//

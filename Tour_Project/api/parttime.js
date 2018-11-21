@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var Parttime = require('../database/parttime_job_schema');
+var Parttime = require('../database/parttime_job');
 
 router.get('/',function(req,res,next){
    Parttime.find({})

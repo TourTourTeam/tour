@@ -1,4 +1,4 @@
-
+var crypto = require('crypto');
 var Schema = {};
 
 Schema.createSchema = function(mongoose) {
@@ -6,14 +6,14 @@ var UserSchema = mongoose.Schema({
     email : { type: String,'default':''}, //user_id
     hashed_password: {type: String, required: true, 'default':''},
 	  nickname: {type: String, index: 'hashed', 'default':''},
-    cur_map_id:{type:String, required:true},
+    cur_map_name:{type:String, required:true},
     status:{
       fatigue : {type: Number, 'default' : 0}, //피로도
       satiety : {type: Number, 'default' : 0}, //포만감
       experience_point : {type: Number, 'default' : 0}, // 경험치
       level : {type : Number, 'default' : 0},
     },
-    character_shape_name:{type:String,required: true},
+    character_shape_name:{type:String},
     money : {type : Number, 'default' : 0},
     //building_list
     //part_time job infor

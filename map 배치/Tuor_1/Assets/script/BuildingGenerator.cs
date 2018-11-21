@@ -32,7 +32,7 @@ public class BuildingGenerator : MonoBehaviour {
                 buildingInstance.transform.localScale = new Vector3(1, 1, 1);
                 buildingInstance.GetComponent<BuildingBehaviourScript>().setBuildingInfo(b);
                 buildingInstance.SetActive(true);
-                buildingInstance.layer = 2;
+                buildingInstance.layer = 0;
             }
         });
 	}
