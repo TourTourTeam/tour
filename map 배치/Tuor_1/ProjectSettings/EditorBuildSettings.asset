@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScene.unity
     guid: 84646996aa94349f3b9bfe5382b7177a
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/DaeguScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BusanScene.unity
+    guid: 858d08f3a434f49bea4aec6126837362
+  - enabled: 1
+    path: Assets/Scenes/SeoulScene.unity
+    guid: 5a44090acc55c43ffad0cb5b65b89f4e
   m_configObjects: {}

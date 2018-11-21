@@ -3,13 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BuildingGenerator : MonoBehaviour {
-    public List<GameObject> buildingList;
-    public List<Vector2> buildingPos;
-
-    public GameObject[] buildingsPrefab = new GameObject[15];
-
     public GameObject canvasObject;
     public GameObject transportManager;
+    public GameObject dataManager;
 
     public int building_num;
 
@@ -17,25 +13,26 @@ public class BuildingGenerator : MonoBehaviour {
 	void Start () {
         canvasObject = GameObject.Find("Canvas");
         transportManager = GameObject.Find("TransportManager");
+        dataManager = GameObject.Find("DataManager");
 
+        /*  get building list from server*/
         BuildingListJson buildingListJson = new BuildingListJson();
-        transportManager.GetComponent<Transport>().SendGet("/buildings", buildingListJson, (resultJson) =>
+        string map_name = (string)dataManager.GetComponent<StaticDataManager>().dataMap["map_name"];
+        transportManager.GetComponent<Transport>().SendGet("/buildings/map/" + map_name, buildingListJson, (resultJson) =>
         {
+
             BuildingListJson result = (BuildingListJson)resultJson;
             building_num = int.Parse(result.length);
-            foreach(BuildingJson b in result.data){
-                buildingPos.Add(new Vector3(float.Parse(b.y),float.Parse(b.x)));
-            }
 
-            for (int i = 0; i < building_num; i++)
-            {
-                buildingList.Add(Instantiate(buildingsPrefab[i]) as GameObject);
-                buildingList[i].transform.SetParent(canvasObject.transform);
-                buildingList[i].transform.localPosition = buildingPos[i];//수정
-                buildingList[i].transform.localScale = new Vector3(1, 1, 1);
-                buildingList[i].GetComponent<BuildingBehaviourScript>().setBuildingInfo(i + "0000");
-                buildingList[i].SetActive(true);
-                buildingList[i].layer = '2';
+            foreach(BuildingJson b in result.data){
+                GameObject prefab = Resources.Load("prefab/" + b.prefabName) as GameObject;
+                GameObject buildingInstance = Instantiate(prefab) as GameObject;
+                buildingInstance.transform.SetParent(canvasObject.transform);
+                buildingInstance.transform.localPosition = new Vector3(float.Parse(b.y), float.Parse(b.x));
+                buildingInstance.transform.localScale = new Vector3(1, 1, 1);
+                buildingInstance.GetComponent<BuildingBehaviourScript>().setBuildingInfo(b);
+                buildingInstance.SetActive(true);
+                buildingInstance.layer = 2;
             }
         });
 	}

@@ -14,6 +14,7 @@ public class BuildingListJson
 [System.Serializable]
 public class BuildingJson
 {
+    public string prefabName;
     public string x;
     public string y;
     public string money;

@@ -9,12 +9,12 @@ router.get('/', function(req, res, next) {
 
 router.post('/new', function(req,res,next){
   console.log(req.body);
-    res.send({"success" : "true", "map" : "1"});
+    res.send({"success" : "true", "name" : "hhm", "map" : "Daegu"});
 });
 
 router.post('/login', function(req, res, next){
   console.log(req.body);
-  res.send({"success" : "true", "map" : "1"});
+  res.send({"success" : "true", "name" : "hhm", "map" : "Daegu"});
 });
 
 

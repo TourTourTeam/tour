@@ -30,13 +30,15 @@ public class LoginDirector : MonoBehaviour {
         /*
          * array 에 id와 password를 받음. 통과하면 로그인 성공
         */
-        ResultJson resultJson = new ResultJson();
+        UserJson resultJson = new UserJson();
         transportManager.GetComponent<Transport>().SendPost("/users/login", array, resultJson, (jsonObject) =>
         {
-            ResultJson result = (ResultJson)jsonObject;
+            UserJson result = (UserJson)jsonObject;
             if(result.success.Equals("true")){
-                dataManager.GetComponent<StaticDataManager>().dataList.Add(result.map);
-                SceneManager.LoadScene("Scenes/SampleScene");
+                dataManager.GetComponent<StaticDataManager>().dataMap.Add("map_name", result.map);
+                dataManager.GetComponent<StaticDataManager>().dataMap.Add("user", result);
+
+                SceneManager.LoadScene("Scenes/" + result.map + "Scene");
             }
             else{
                 Debug.Log("응 아니야~");
