@@ -8,9 +8,12 @@ public class GameDirector : MonoBehaviour {
     GameObject canvas;
 
     GameObject transportManager;
-    GameObject mapSaid;
-    GameObject buildingSaid;
-    GameObject buildingOwner;
+
+    public GameObject mapSaid;
+    public GameObject buildingSaid;
+    public GameObject buildingOwner;
+    public GameObject characterSaid;
+
     GameObject dataManager;
     public int layer;
 
@@ -27,14 +30,18 @@ public class GameDirector : MonoBehaviour {
 
         this.transportManager = GameObject.Find("TransportManager");
 
-        this.mapSaid = GameObject.Find("MapSaid");
+        //this.mapSaid = GameObject.Find("MapSaid");
         this.mapSaid.SetActive(false);
 
-        this.buildingSaid = GameObject.Find("BuildingSaid");
+        //this.buildingSaid = GameObject.Find("BuildingSaid");
         this.buildingSaid.SetActive(false);
 
-        this.buildingOwner = GameObject.Find("BuildingOwnerSaid");
+        //this.buildingOwner = GameObject.Find("BuildingOwnerSaid");
         this.buildingOwner.SetActive(false);
+
+        //this.characterSaid = GameObject.Find("CharacterSaid");
+        this.characterSaid.SetActive(false);
+
 
         this.dataManager = GameObject.Find("DataManager");
     }
@@ -44,6 +51,21 @@ public class GameDirector : MonoBehaviour {
         deactivateMapSaid();
         deactivateBuildingSaid();
         deactivateBuildingOwnerSaid();
+        deactiveCharacterSaid();
+    }
+
+    public void activeCharacterSaid()
+    {
+        deactiveAllBox();
+
+        this.characterSaid.transform.localPosition = new Vector3(0, -166, -50);
+        this.characterSaid.transform.localScale = new Vector3(56, 50, 1);
+        this.characterSaid.SetActive(true);
+    }
+
+    public void deactiveCharacterSaid()
+    {
+        this.characterSaid.SetActive(false);
     }
 
     /*  빌딩 말풍선을 보이게 함  */
