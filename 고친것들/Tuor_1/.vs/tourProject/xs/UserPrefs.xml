@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{7FD6F6DD-ED6B-116F-91A5-710D6D4384BA}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SaidBehaviorScript.cs">
+    <Files>
+      <File FileName="Assets/Building1Generator.cs" Line="26" Column="88" />
+      <File FileName="Assets/GameDirector.cs" Line="16" Column="1" />
+      <File FileName="Assets/SaidBehaviorScript.cs" Line="13" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
