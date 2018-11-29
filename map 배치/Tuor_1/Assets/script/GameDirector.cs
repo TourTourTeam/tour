@@ -132,6 +132,14 @@ public class GameDirector : MonoBehaviour {
     }
 
 
+    public void updateUserData(){
+        UserJson user = (UserJson)dataManager.GetComponent<StaticDataManager>().dataMap["user"];
+        transportManager.GetComponent<Transport>().SendGet("/api/user/" + user.id, new UserJson(), (result) =>
+        {
+            dataManager.GetComponent<StaticDataManager>().dataMap["user"] = (UserJson)result;
+        });
+    }
+
     // Update is called once per frame
     void Update () {
 		

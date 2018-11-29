@@ -6,8 +6,9 @@ using System;
 
 public class UserResultJson{
     public string success;
-    public List<UserJson> data;
+    public UserJson data;
 }
+
 
 [System.Serializable]
 public class UserJson {

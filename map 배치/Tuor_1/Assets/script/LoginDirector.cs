@@ -42,21 +42,24 @@ public class LoginDirector : MonoBehaviour {
         /*
          * array 에 id와 password를 받음. 통과하면 로그인 성공
         */
+
         SignJson resultJson = new SignJson();
         transportManager.GetComponent<Transport>().SendPost("/login", array, resultJson, (jsonObject) =>
         {
             SignJson result = (SignJson)jsonObject;
             if(result.success.Equals("true")){
                 
-                transportManager.GetComponent<Transport>().SendGet("/api/user", new UserResultJson(), (userJsonObject) =>
+                transportManager.GetComponent<Transport>().SendGet("/api/user/" + ((KeyValuePair<string,string>)array[0]).Value
+                                                                   , new UserResultJson(), (userJsonObject) =>
                 {
                     UserResultJson user_result = (UserResultJson)userJsonObject;
-                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("map_name", user_result.data[0].cur_map_name);
-                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("user", user_result.data[0]);
+                    Debug.Log(user_result);
+                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("map_name", user_result.data.cur_map_name);
+                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("user", user_result.data);
 
-                    Debug.Log(user_result.data[0].cur_map_name);
+                    Debug.Log(user_result.data.cur_map_name);
 
-                    SceneManager.LoadScene("Scenes/" + user_result.data[0].cur_map_name + "Scene");
+                    SceneManager.LoadScene("Scenes/" + user_result.data.cur_map_name + "Scene");
                 });
             }
             else{
