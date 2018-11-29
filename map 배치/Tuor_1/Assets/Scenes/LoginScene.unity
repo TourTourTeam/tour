@@ -1501,8 +1501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2557da71ea63042a5b28cb4064eb2c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: 127.0.0.1
-  port: :3000
+  url: http://ec2-3-17-30-224.us-east-2.compute.amazonaws.com
+  port: 3000
 --- !u!4 &1675501944
 Transform:
   m_ObjectHideFlags: 0

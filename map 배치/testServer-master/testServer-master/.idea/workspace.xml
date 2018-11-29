@@ -2,47 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566580de-4ed5-4dc8-8c76-c790eb3d7f4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/.vs/Tuor_1/xs/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/Scenes/LoginScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/LoginDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/LoginDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/Transport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/Transport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Assets/script/UserJson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Assets/script/UserJson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/0b/0b7b54f738ff2da40be0ca6809216d3d" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/0b/0b7b54f738ff2da40be0ca6809216d3d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/0b/0b7b54f738ff2da40be0ca6809216d3d.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/0b/0b7b54f738ff2da40be0ca6809216d3d.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/16/16cec30815ee3f14aa694bc31331a331" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/16/16cec30815ee3f14aa694bc31331a331" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/16/16cec30815ee3f14aa694bc31331a331.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/16/16cec30815ee3f14aa694bc31331a331.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/2b/2b05adc316670514e989bab6caef2b37" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/2b/2b05adc316670514e989bab6caef2b37" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/2b/2b05adc316670514e989bab6caef2b37.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/2b/2b05adc316670514e989bab6caef2b37.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/61/6124a3e7b29065a4084a2dd04787c744" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/61/6124a3e7b29065a4084a2dd04787c744" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/61/6124a3e7b29065a4084a2dd04787c744.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/61/6124a3e7b29065a4084a2dd04787c744.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/98/988d9362676e1324397117547a09a9aa" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/98/988d9362676e1324397117547a09a9aa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/98/988d9362676e1324397117547a09a9aa.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/98/988d9362676e1324397117547a09a9aa.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0467860316ee6241ac33772261dc153" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0467860316ee6241ac33772261dc153" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0467860316ee6241ac33772261dc153.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/b0/b0467860316ee6241ac33772261dc153.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/e1/e1a40fe2be254614c86ad771f9bd463c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/e1/e1a40fe2be254614c86ad771f9bd463c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/e1/e1a40fe2be254614c86ad771f9bd463c.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/e1/e1a40fe2be254614c86ad771f9bd463c.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/eb/eb3bc7d5e06a1e7448ed3b35c81d1617" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/eb/eb3bc7d5e06a1e7448ed3b35c81d1617" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/eb/eb3bc7d5e06a1e7448ed3b35c81d1617.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/eb/eb3bc7d5e06a1e7448ed3b35c81d1617.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/25/2557da71ea63042a5b28cb4064eb2c3e" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/25/2557da71ea63042a5b28cb4064eb2c3e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/58/58257c13cd918448294c6964ac464ce2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/58/58257c13cd918448294c6964ac464ce2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/70/70002294b4dec46c3b08f6ed5f4f8ca3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/metadata/70/70002294b4dec46c3b08f6ed5f4f8ca3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tuor_1/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-0c3b8bb5368b446f1b95e1a214883f2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-14c417b4f421943b59bc07e12646cc48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-16fc88e5df25f48cd8129b56036edd3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-3d021aaa4044a4e029354c886373efb6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-482899010978d4acba53cde8a4a77737" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-4bcfd61b8a72041bcb76521b92b1cf74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-4ea993a2d947c4db482ab3ea1b4a811c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-711a67628b4c94220b1ed09d8d4fb0cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-79007ad60157f45769001ed9c5d8bf01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-7f30ccce0c82e46deb6135f2c9c4f52f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-8ac902f75da57443cadd2f9830c7dba4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-8ad7d4a20c29d4a6c8ad2639170faa9e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-9b7e05ef06205401f86d141760d8cecd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-9cfdaaf145f4a4340ad7d7ff1199d669" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-a1f470d96f74849adba4cde55456e883" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-a617bbfbbddaf4a90ab2efede4d25c20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-c2def5a641aaa414690a50c23fce1a87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-c5b90dc29d6c14bc5920337d27dffd77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-d12a0fd42af2f43ebabcf8670a740979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-d7e88d2f32d684cd9b02cd0293857fe5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/UnityTempFile-f04725b3f5f56469798470b831d2fa4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tuor_1/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tuor_1/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tuor_1/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +64,7 @@
     <session id="-280371826">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -148,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/buildings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -264,12 +242,12 @@
       <workItem from="1542797273664" duration="4863000" />
       <workItem from="1542805982399" duration="21000" />
       <workItem from="1542812451346" duration="1500000" />
-      <workItem from="1543424438005" duration="199000" />
+      <workItem from="1543424438005" duration="204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17806000" />
+    <option name="totallyTimeSpent" value="17811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="961" extended-state="0" />
@@ -284,7 +262,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/buildings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\script\BuildingBehaviourScript.cs" />
     <Compile Include="Assets\script\BuildingGenerator.cs" />
-    <Compile Include="Assets\script\BuildingListJson.cs" />
+    <Compile Include="Assets\script\BuildingJson.cs" />
     <Compile Include="Assets\script\BuildingOwnerScript.cs" />
     <Compile Include="Assets\script\BuildingSaidScript.cs" />
     <Compile Include="Assets\script\CharacterSaid.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="Assets\script\MapListJson.cs" />
     <Compile Include="Assets\script\MapSaidScript.cs" />
     <Compile Include="Assets\script\ResultJson.cs" />
+    <Compile Include="Assets\script\SignJson.cs" />
     <Compile Include="Assets\script\StaticDataManager.cs" />
     <Compile Include="Assets\script\Transport.cs" />
     <Compile Include="Assets\script\UserJson.cs" />

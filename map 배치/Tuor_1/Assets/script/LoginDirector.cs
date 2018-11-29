@@ -37,20 +37,27 @@ public class LoginDirector : MonoBehaviour {
     public void tryLogin(){
         ArrayList array = new ArrayList();
         array.Add(new KeyValuePair<string, string>("id", loginWindow.GetComponent<loginWindowBehavior>().idField.text));
-        array.Add(new KeyValuePair<string, string>("pw", loginWindow.GetComponent<loginWindowBehavior>().passwordField.text));
+        array.Add(new KeyValuePair<string, string>("password", loginWindow.GetComponent<loginWindowBehavior>().passwordField.text));
 
         /*
          * array 에 id와 password를 받음. 통과하면 로그인 성공
         */
-        UserJson resultJson = new UserJson();
-        transportManager.GetComponent<Transport>().SendPost("/users/login", array, resultJson, (jsonObject) =>
+        SignJson resultJson = new SignJson();
+        transportManager.GetComponent<Transport>().SendPost("/login", array, resultJson, (jsonObject) =>
         {
-            UserJson result = (UserJson)jsonObject;
+            SignJson result = (SignJson)jsonObject;
             if(result.success.Equals("true")){
-                dataManager.GetComponent<StaticDataManager>().dataMap.Add("map_name", result.map);
-                dataManager.GetComponent<StaticDataManager>().dataMap.Add("user", result);
+                
+                transportManager.GetComponent<Transport>().SendGet("/api/user", new UserResultJson(), (userJsonObject) =>
+                {
+                    UserResultJson user_result = (UserResultJson)userJsonObject;
+                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("map_name", user_result.data[0].cur_map_name);
+                    dataManager.GetComponent<StaticDataManager>().dataMap.Add("user", user_result.data[0]);
 
-                SceneManager.LoadScene("Scenes/" + result.map + "Scene");
+                    Debug.Log(user_result.data[0].cur_map_name);
+
+                    SceneManager.LoadScene("Scenes/" + user_result.data[0].cur_map_name + "Scene");
+                });
             }
             else{
                 Debug.Log("응 아니야~");
@@ -62,12 +69,14 @@ public class LoginDirector : MonoBehaviour {
     public void tryNewAccount(){
         ArrayList array = new ArrayList();
         array.Add(new KeyValuePair<string, string>("id", loginWindow.GetComponent<loginWindowBehavior>().idField.text));
-        array.Add(new KeyValuePair<string, string>("pw", loginWindow.GetComponent<loginWindowBehavior>().passwordField.text));
+        array.Add(new KeyValuePair<string, string>("password", loginWindow.GetComponent<loginWindowBehavior>().passwordField.text));
+        array.Add(new KeyValuePair<string, string>("name", "test"));
 
-        ResultJson resultJson = new ResultJson();
-        transportManager.GetComponent<Transport>().SendPost("/users/new", array, resultJson, (jsonObject) =>
+
+        SignJson signJson = new SignJson();
+        transportManager.GetComponent<Transport>().SendPost("/signup", array, signJson, (jsonObject) =>
         {
-            ResultJson result = (ResultJson)jsonObject;
+            SignJson result = (SignJson)jsonObject;
             if (result.success.Equals("true"))
             {
                 Debug.Log("로그인 하세요!");

@@ -9,8 +9,8 @@ public class BuildingSaidScript : MonoBehaviour {
 
     /*  말풍선의 정보를 세팅 */
     public void setInfo(BuildingJson info){
-        buyText.text = info.money;
-        parttimeText.text = info.money;
+        buyText.text = info.price.sale;
+        parttimeText.text = info.part_time_job.money;
     }
 
 

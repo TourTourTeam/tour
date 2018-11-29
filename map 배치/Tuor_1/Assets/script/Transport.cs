@@ -8,8 +8,8 @@ using System;
 public class Transport : MonoBehaviour
 {
 
-    public string url = "127.0.0.1";
-    public string port = ":3000";
+    public string url = "ec2-3-17-30-224.us-east-2.compute.amazonaws.com";
+    public string port = "3000";
     public object resultObject;
 
     private void Awake()
@@ -41,9 +41,10 @@ public class Transport : MonoBehaviour
         {
             form.AddField(f.Key, f.Value);
         }
-        //form.AddField("description", "sendData");//description이라는 틀에 sendData라는 메시지를 담음.
 
-        using (var w = UnityWebRequest.Post("http://localhost:3000" + path, form))//url 입력-> 현재는 로컬 호스트+3000포트
+        Debug.Log(url + ":" + port + path);
+
+        using (var w = UnityWebRequest.Post(url + ":" + port + path, form))//url 입력-> 현재는 로컬 호스트+3000포트
         {
             yield return w.SendWebRequest();
             if (w.isNetworkError || w.isHttpError)
@@ -64,7 +65,9 @@ public class Transport : MonoBehaviour
 
     IEnumerator TestGet(string path, object jsonObject, Action<object> action)
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost:3000" + path))
+        Debug.Log(url + ":" + port + path);
+
+        using (UnityWebRequest www = UnityWebRequest.Get(url + ":" + port + path))
         {
             yield return www.SendWebRequest();
 

@@ -16,19 +16,18 @@ public class BuildingGenerator : MonoBehaviour {
         dataManager = GameObject.Find("DataManager");
 
         /*  get building list from server*/
-        BuildingListJson buildingListJson = new BuildingListJson();
         string map_name = (string)dataManager.GetComponent<StaticDataManager>().dataMap["map_name"];
-        transportManager.GetComponent<Transport>().SendGet("/buildings/map/" + map_name, buildingListJson, (resultJson) =>
+        transportManager.GetComponent<Transport>().SendGet("/api/building/map_name/" + map_name, new BuildingResultJson(), (resultJson) =>
         {
 
-            BuildingListJson result = (BuildingListJson)resultJson;
-            building_num = int.Parse(result.length);
+            BuildingResultJson result = (BuildingResultJson)resultJson;
+            building_num = result.data.Count;
 
             foreach(BuildingJson b in result.data){
-                GameObject prefab = Resources.Load("prefab/" + b.prefabName) as GameObject;
+                GameObject prefab = Resources.Load("prefab/" + b.prefab_name) as GameObject;
                 GameObject buildingInstance = Instantiate(prefab) as GameObject;
                 buildingInstance.transform.SetParent(canvasObject.transform);
-                buildingInstance.transform.localPosition = new Vector3(float.Parse(b.y), float.Parse(b.x));
+                buildingInstance.transform.localPosition = new Vector3(float.Parse(b.pos.y), float.Parse(b.pos.x), float.Parse(b.pos.z));
                 buildingInstance.transform.localScale = new Vector3(1, 1, 1);
                 buildingInstance.GetComponent<BuildingBehaviourScript>().setBuildingInfo(b);
                 buildingInstance.SetActive(true);

@@ -27,7 +27,7 @@ public class BuildingBehaviourScript : MonoBehaviour {
     public void  Onclick(){
         UserJson user = (UserJson)dataManager.GetComponent<StaticDataManager>().dataMap["user"];
 
-        if (user.name.Equals(info.userName))
+        if (user.id.Equals(info.owner_id))
         {
             gameDirector.GetComponent<GameDirector>().activateBuildingOnwerSaid(this.info);
         }else{

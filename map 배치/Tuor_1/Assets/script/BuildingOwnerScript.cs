@@ -20,9 +20,11 @@ public class BuildingOwnerScript : MonoBehaviour {
 	}
 
     public void setInfo(BuildingJson info){
-        saleText.text = info.money;
-        parttimeText.text = info.money;
-        areaText.text = info.money;
-        incomeText.text = info.money;
+        saleText.text = info.price.sale;
+        parttimeText.text = info.part_time_job.number;
+        areaText.text = info.area;
+
+        double income = double.Parse(info.part_time_job.number) * double.Parse(info.part_time_job.money);
+        incomeText.text = income.ToString();
     }
 }
