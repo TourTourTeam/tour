@@ -7,6 +7,9 @@ public class BuildingGenerator : MonoBehaviour {
     public GameObject transportManager;
     public GameObject dataManager;
 
+    public GameObject mapButton;
+    public GameObject charactorButton;
+
     public int building_num;
 
 	// Use this for initialization
@@ -14,6 +17,7 @@ public class BuildingGenerator : MonoBehaviour {
         canvasObject = GameObject.Find("Canvas");
         transportManager = GameObject.Find("TransportManager");
         dataManager = GameObject.Find("DataManager");
+
 
         /*  get building list from server*/
         string map_name = (string)dataManager.GetComponent<StaticDataManager>().dataMap["map_name"];
@@ -33,8 +37,12 @@ public class BuildingGenerator : MonoBehaviour {
                 buildingInstance.SetActive(true);
                 buildingInstance.layer = 0;
             }
+
+            charactorButton.transform.SetAsLastSibling();
+            mapButton.transform.SetAsLastSibling();
         });
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

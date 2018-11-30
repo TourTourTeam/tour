@@ -62,8 +62,6 @@ public class GameDirector : MonoBehaviour {
         this.characterSaid.transform.localPosition = new Vector3(0, -166, -50);
         this.characterSaid.transform.localScale = new Vector3(56, 50, 1);
         this.characterSaid.SetActive(true);
-
-        testUserData();
     }
 
 

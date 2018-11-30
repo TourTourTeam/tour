@@ -4952,6 +4952,7 @@ MonoBehaviour:
   bar2: {fileID: 991149343}
   bar3: {fileID: 981924299}
   dataManager: {fileID: 0}
+  gameDirector: {fileID: 0}
 --- !u!222 &1750251151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5555,6 +5556,8 @@ MonoBehaviour:
   canvasObject: {fileID: 0}
   transportManager: {fileID: 0}
   dataManager: {fileID: 0}
+  mapButton: {fileID: 692215339}
+  charactorButton: {fileID: 583402350}
   building_num: 0
 --- !u!4 &1970378780
 Transform:
