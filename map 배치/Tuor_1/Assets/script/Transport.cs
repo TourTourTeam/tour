@@ -31,6 +31,35 @@ public class Transport : MonoBehaviour
         StartCoroutine(TestGet(path, jsonObject, action));
     }
 
+    public void SendPut(string path, string requestData, object jsonObject, Action<object> action){
+        StartCoroutine(TestPut(path, requestData, jsonObject, action));
+    }
+
+    IEnumerator TestPut(string path, string requestData, object jsonObject, Action<object> action)
+    {
+
+        // Create a Web Form
+        WWWForm form = new WWWForm();
+
+        using (var w = UnityWebRequest.Put(url + ":" + port + path, requestData))
+        {
+            yield return w.SendWebRequest();
+            if (w.isNetworkError || w.isHttpError)
+            {
+                Debug.Log(w.error);
+            }
+            else
+
+            {
+                JsonUtility.FromJsonOverwrite(w.downloadHandler.text, jsonObject);
+                if (action != null)
+                    action(jsonObject);
+
+                Debug.Log(w.downloadHandler.text);
+            }
+        }
+    }
+
     IEnumerator TestPost(string path, ArrayList fields, object jsonObject, Action<object> action)
     {
 

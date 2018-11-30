@@ -26,9 +26,7 @@ public class GameDirector : MonoBehaviour {
         canvas = GameObject.Find("Canvas");
         canvas.GetComponent<RectTransform>().sizeDelta = new Vector2(1920, 1080);
         canvas.GetComponent<RectTransform>().position = new Vector3(960, 540, 0);
-
-
-        this.transportManager = GameObject.Find("TransportManager");
+        canvas.transform.SetAsLastSibling();
 
         //this.mapSaid = GameObject.Find("MapSaid");
         this.mapSaid.SetActive(false);
@@ -44,6 +42,9 @@ public class GameDirector : MonoBehaviour {
 
 
         this.dataManager = GameObject.Find("DataManager");
+
+        this.transportManager = GameObject.Find("TransportManager");
+
     }
 
     public void deactiveAllBox()
@@ -57,11 +58,14 @@ public class GameDirector : MonoBehaviour {
     public void activeCharacterSaid()
     {
         deactiveAllBox();
-
+        this.characterSaid.transform.SetAsLastSibling();
         this.characterSaid.transform.localPosition = new Vector3(0, -166, -50);
         this.characterSaid.transform.localScale = new Vector3(56, 50, 1);
         this.characterSaid.SetActive(true);
+
+        testUserData();
     }
+
 
     public void deactiveCharacterSaid()
     {
@@ -71,7 +75,7 @@ public class GameDirector : MonoBehaviour {
     /*  빌딩 말풍선을 보이게 함  */
     public void activateBuildingSaid(BuildingJson info){
         deactiveAllBox();
-
+        this.buildingSaid.transform.SetAsLastSibling();
         this.buildingSaid.GetComponent<BuildingSaidScript>().setInfo(info);
         this.buildingSaid.transform.localPosition = new Vector3(0, -166,-50);
         this.buildingSaid.transform.localScale = new Vector3(56, 50, 1);
@@ -85,7 +89,7 @@ public class GameDirector : MonoBehaviour {
 
     public void activateBuildingOnwerSaid(BuildingJson info){
         deactiveAllBox();
-
+        this.buildingOwner.transform.SetAsLastSibling();
         this.buildingOwner.GetComponent<BuildingOwnerScript>().setInfo(info);
         this.buildingOwner.transform.localPosition = new Vector3(0, -166, -50);
         this.buildingOwner.transform.localScale = new Vector3(56, 50, 1);
@@ -99,7 +103,7 @@ public class GameDirector : MonoBehaviour {
     /*  맵 말풍선을 보이게 함    */
     public void activateMapSaid(){
         deactiveAllBox();
-
+        this.mapSaid.transform.SetAsLastSibling();
         this.mapSaid.transform.localPosition = new Vector3(-1, -30, -50);
         this.mapSaid.transform.localScale = new Vector3(40, 40, 1);
         this.mapSaid.SetActive(true);
@@ -132,12 +136,29 @@ public class GameDirector : MonoBehaviour {
     }
 
 
-    public void updateUserData(){
+    public void getUserData(){
         UserJson user = (UserJson)dataManager.GetComponent<StaticDataManager>().dataMap["user"];
         transportManager.GetComponent<Transport>().SendGet("/api/user/" + user.id, new UserJson(), (result) =>
         {
             dataManager.GetComponent<StaticDataManager>().dataMap["user"] = (UserJson)result;
         });
+    }
+
+    public void testUserData(){
+        UserJson user = (UserJson)this.dataManager.GetComponent<StaticDataManager>().dataMap["user"];
+        user.status.level = "100";
+        string json = JsonUtility.ToJson(user);
+        Debug.Log(json);
+
+        ArrayList array = new ArrayList();
+        array.Add(new KeyValuePair<string, string>("update", json));
+
+        Debug.Log(this.transportManager);
+        transportManager.GetComponent<Transport>().SendPost("/api/user/update/" + user.id, array, new UserResultJson(), (result) =>
+        {
+            Debug.Log(result);
+        });
+
     }
 
     // Update is called once per frame
